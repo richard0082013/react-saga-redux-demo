@@ -1,8 +1,8 @@
-#Base
+# Base
 This project was bootstrapped with Create React App.
-#UI
+# UI
 Apply `semantic ui react` to styling.
-#Router
+# Router
 Setup Router by react router 4.
-#Async task handler
+# Async task handler
 redux saga
