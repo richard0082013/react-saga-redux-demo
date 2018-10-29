@@ -1,5 +1,13 @@
-import React from "react";
+import React, { Component } from "react";
+import { flickrImages } from "../Api/api";
 
-const Library = () => <div>Library</div>;
+class Library extends Component {
+  componentDidMount() {
+    flickrImages("rain").then(images => console.log("image", images));
+  }
+  render() {
+    return <div>Library</div>;
+  }
+}
 
 export default Library;
